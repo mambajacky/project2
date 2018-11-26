@@ -1,7 +1,7 @@
 import click
 from google.cloud import bigquery
 
-uni1 = '' # Your uni
+uni1 = 'yf2433' # Your uni
 uni2 = '' # Partner's uni. If you don't have a partner, put None
 
 # Test function
@@ -163,4 +163,4 @@ def main(pathtocred):
     #bfs(client, 'A', 5)
 
 if __name__ == "__main__":
-  main()
+  main("D:\MAFN\2018 Fall\Intro to Database\project2\w4111-project-2-credentials.json")
